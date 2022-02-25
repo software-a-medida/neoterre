@@ -1,20 +1,21 @@
-<?php
+<?php namespace BuriPHP;
+
 /**
  *
- * @package Valkyrie.Platform
+ * @package BuriPHP
  *
  * @since 1.0.0
  * @version 1.0.0
  * @license    You can see LICENSE.txt
  *
  * @author     David Miguel Gómez Macías < davidgomezmacias@gmail.com >
- * @copyright  Copyright (C) CodeMonkey - Platform. All Rights Reserved.
+ * @copyright  Copyright (C) CodeMonkey - BuriPHP. All Rights Reserved.
  */
 
 define('_EXEC', 1);
 
-if ( version_compare(PHP_VERSION, '5.4', '<') )
-    die('Your host needs to use PHP 5.4 or higher to run this version of Valkyrie Platform.');
+if ( version_compare(PHP_VERSION, '7.0', '<') )
+    die('Your host needs to use PHP 7.0 or higher to run this version of BuriPHP.');
 
 if ( !defined('_DEFINES') )
 {
@@ -22,14 +23,19 @@ if ( !defined('_DEFINES') )
     require_once PATH_ROOT . DIRECTORY_SEPARATOR . 'includes' . DIRECTORY_SEPARATOR . 'defines.php';
 }
 
-spl_autoload_register(function($class)
+spl_autoload_register(function ( $namespace )
 {
-    if ( file_exists(PATH_LIBRARIES . $class . CLASS_PHP) )
-	    require PATH_LIBRARIES . $class . CLASS_PHP;
+    $namespace = explode('\\', $namespace);
+    $library = end( $namespace ) . CLASS_PHP;
 
-    if ( file_exists(PATH_MY_LIBRARIES . $class . CLASS_PHP) )
-	    require PATH_MY_LIBRARIES . $class . CLASS_PHP;
+    if ( file_exists(PATH_BURIPHP_LIBRARIES . $library) )
+    {
+        require_once PATH_BURIPHP_LIBRARIES . $library;
+    }
+    if ( file_exists(PATH_LIBRARIES . $library) )
+    {
+        require_once PATH_LIBRARIES . $library;
+    }
 });
 
-$layout = new Layout();
-echo $layout->execute();
+echo (new \BuriPHP\System\Libraries\Layout())->execute();
