@@ -8,6 +8,8 @@ class Pages
 
 	public function init()
 	{
+		define('_title', 'Neoterre | Inicio');
+
 		global $blog;
 
 		$blog = $this->model->get();
@@ -17,16 +19,22 @@ class Pages
 
 	public function developing()
 	{
+		define('_title', 'Neoterre | Desarrollos');
+
 		return $this->view->render(PATH_LAYOUTS . 'Pages/developing.php');
 	}
 
 	public function collaborate()
 	{
+		define('_title', 'Neoterre | Brokers');
+
 		return $this->view->render(PATH_LAYOUTS . 'Pages/collaborate.php');
 	}
 
 	public function contact()
 	{
+		define('_title', 'Neoterre | Contacto');
+
 		return $this->view->render(PATH_LAYOUTS . 'Pages/contact.php');
 	}
 }

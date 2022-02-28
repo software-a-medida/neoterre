@@ -23,7 +23,7 @@ class Configuration
 	 *
      * @var string $domain
      */
-	public static $domain = 'codemonkey.com.mx';
+	public static $domain = 'neoterre.mx';
 
 	/**
      * Nombre del sitio web.
@@ -32,7 +32,7 @@ class Configuration
 	 *
      * @var string $web_page
      */
-	public static $web_page = 'CodeMonkey';
+	public static $web_page = 'Neoterre';
 
 	/**
      * Idioma por default
@@ -161,7 +161,7 @@ class Configuration
 	 *
      * @var string $db_user
      */
-	public static $db_user = 'dgomez';
+	public static $db_user = 'root';
 
 	/**
      * Contraseña de la base de datos.

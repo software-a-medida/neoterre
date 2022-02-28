@@ -10,6 +10,8 @@ class Developments
 
 	public function category( $params )
 	{
+		define('_title', 'Neoterre | Desarrollos');
+
 		switch ( $params[0] ) {
 			case 'casas':
 				return $this->view->render(PATH_LAYOUTS . 'Developments/'. $params[0] .'.php');
@@ -20,7 +22,7 @@ class Developments
 			case 'condos':
 				return $this->view->render(PATH_LAYOUTS . 'Developments/'. $params[0] .'.php');
 				break;
-			
+
 			default:
 				Errors::http('404');
 				break;
@@ -29,6 +31,8 @@ class Developments
 
 	public function development( $params )
 	{
+		define('_title', 'Neoterre | Desarrollos');
+
 		switch ( $params[0] ) {
 			case 'surenna':
 				return $this->view->render(PATH_LAYOUTS . 'Developments/'. $params[0] .'.php');
@@ -66,7 +70,7 @@ class Developments
 			case 'sukses':
 				return $this->view->render(PATH_LAYOUTS . 'Developments/'. $params[0] .'.php');
 				break;
-			
+
 			default:
 				Errors::http('404');
 				break;

@@ -22,7 +22,7 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                     <a href="/developments/condos" class="btn btn-link p-l-0">Condos</a>
                 </div>
                 <h1 class="text-uppercase m-t-30">Condos</h1>
-                <p class="text-muted m-b-50">En la página del desarrollo recién esta la descarga del brochure.</p>
+                <p class="text-muted m-b-50"><i>En la página del desarrollo recién esta la descarga del brochure.</i></p>
 
                 <!-- <article class="m-b-50">
                     <div class="row no-gutters">

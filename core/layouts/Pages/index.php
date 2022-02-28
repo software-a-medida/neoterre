@@ -168,19 +168,19 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.1']);
                         <figure class="d-flex align-items-center flex-column justify-content-center m-b-10" style="width: 78px;height: 78px;">
                             <img src="{$path.images}icon-sale.png" alt="" class="img-fluid">
                         </figure>
-                        <h6>Opciones flexible</h6>
+                        <h6>Opciones flexibles</h6>
                         <p>de financiamiento.</p>
                     </div>
                     <div>
                         <figure class="d-flex align-items-center flex-column justify-content-center m-b-10" style="width: 78px;height: 78px;">
                             <img src="{$path.images}icon-write.png" alt="" class="img-fluid">
                         </figure>
-                        <h6>Estudio de mercado</h6>
-                        <p>extensivo para tomar las mejores decisiones.</p>
+                        <h6>Estudio de mercado extensivo</h6>
+                        <p>para tomar las mejores decisiones.</p>
                     </div>
                     <div>
                         <figure class="d-flex align-items-center flex-column justify-content-center m-b-10" style="width: 78px;height: 78px;">
-                            <img src="{$path.images}icon-write.png" alt="" class="img-fluid">
+                            <img src="{$path.images}icon-money.png" alt="" class="img-fluid">
                         </figure>
                         <h6>Mejores precios por m2</h6>
                         <p>justos y competitivos.</p>

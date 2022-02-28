@@ -10,6 +10,8 @@ class Blog
 
 	public function list()
 	{
+		define('_title', 'Neoterre | Blog');
+
 		global $data;
 
 		$data = $this->model->get();
@@ -19,6 +21,8 @@ class Blog
 
 	public function view($params)
 	{
+		define('_title', 'Neoterre | Blog');
+
 		global $data;
 
 		$data = $this->model->get( $params[0] );
