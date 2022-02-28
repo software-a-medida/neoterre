@@ -22,8 +22,8 @@
                         </ul>
                     </div>
                     <div class="col-1 text-right">
-                        <a href="https://www.instagram.com/neoterremx" target="_blank" class="btn btn-link p-lr-5" style="font-size: 2rem;"> <i class="fa fa-facebook"></i> </a>
-                        <a href="https://www.facebook.com/NeoterreLifestyleDevelopers/" target="_blank" class="btn btn-link p-lr-5" style="font-size: 2rem;"> <i class="fa fa-instagram"></i> </a>
+                        <a href="https://www.facebook.com/NeoterreLifestyleDevelopers/" target="_blank" class="btn btn-link p-lr-5" style="font-size: 2rem;"> <i class="fa fa-facebook"></i> </a>
+                        <a href="https://www.instagram.com/neoterremx/" target="_blank" class="btn btn-link p-lr-5" style="font-size: 2rem;"> <i class="fa fa-instagram"></i> </a>
                     </div>
                 </div>
 
