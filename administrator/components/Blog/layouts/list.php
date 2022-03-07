@@ -24,7 +24,7 @@ $this->dependencies->add(['other', '<script>$.app.addButtonsAction({
 
 $this->dependencies->add(['other', '<script>$.app.addButtonsAction({
     "button": {
-        "text": "Nuevo servicio",
+        "text": "Nueva entrada",
         "class": "btn btn-success waves-effect waves-light",
         "href": "index.php/blog/create"
     }

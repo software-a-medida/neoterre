@@ -2,7 +2,7 @@
 
 defined('_EXEC') or die;
 
-use \BuriPHP\System\Libraries\{Session,Security,Component};
+use \BuriPHP\System\Libraries\{Session,Security,Component as BlogComponent};
 
 class Blog
 {
@@ -62,7 +62,7 @@ class Blog
 			'sm_description' => $data['sm_description']
 		];
 
-		$component = new Component();
+		$component = new BlogComponent();
 
 		if ( !empty($data['image_cover']['name']) )
 		{
