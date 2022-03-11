@@ -4,7 +4,7 @@
         <nav>
             <ul class="list-inline m-0 visible-desktop visible-desktop-large">
                 <li class="list-inline-item">
-                    <a href="javascript:void(0);" class="btn btn-link btn-light text-uppercase font-weight-600">Desarrollos</a>
+                    <a href="javascript:void(0);" class="btn btn-link btn-light text-uppercase font-weight-600">{$lang.developments}</a>
 
                     <div class="dropdown">
                         <div class="container">
@@ -12,7 +12,7 @@
                                 <div class="col-3">
                                     <div class="row">
                                         <div class="col-3">
-                                            <p class="m-0"><a href="/developments/casas" class="text-dark"><strong>Casas</strong></a></p>
+                                            <p class="m-0"><a href="/developments/casas" class="text-dark"><strong>{$lang.houses}</strong></a></p>
                                         </div>
                                         <div class="col-9">
                                             <ul class="list-unstyled">
@@ -23,7 +23,7 @@
                                                     <a href="/development/sabella" class="text-dark">Sabella</a>
                                                 </li>
                                                 <li class="list-inline-item d-block">
-                                                    <a href="/development/neoterre-houses" class="text-dark">Neoterre Houses</a>
+                                                    <a href="/development/neoterre-houses" class="text-dark">Neoterre {$lang.houses}</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -32,7 +32,7 @@
                                 <div class="col-3">
                                     <div class="row">
                                         <div class="col-3">
-                                            <p class="m-0"><a href="/developments/lotes" class="text-dark"><strong>Lotes</strong></a></p>
+                                            <p class="m-0"><a href="/developments/lotes" class="text-dark"><strong>{$lang.lots}</strong></a></p>
                                         </div>
                                         <div class="col-9">
                                             <ul class="list-unstyled">
@@ -55,7 +55,7 @@
                                 <div class="col-3">
                                     <div class="row">
                                         <div class="col-3">
-                                            <p class="m-0"><a href="/developments/condos" class="text-dark"><strong>Condos</strong></a></p>
+                                            <p class="m-0"><a href="/developments/condos" class="text-dark"><strong>{$lang.departments}</strong></a></p>
                                         </div>
                                         <div class="col-9">
                                             <ul class="list-unstyled">
@@ -80,7 +80,7 @@
                     </div>
                 </li>
                 <li class="list-inline-item">
-                    <a href="/#chooseus" class="btn btn-link btn-light text-uppercase font-weight-600">Elígenos</a>
+                    <a href="/#chooseus" class="btn btn-link btn-light text-uppercase font-weight-600">{$lang.choose_us}</a>
                 </li>
                 <li class="list-inline-item">
                     <a href="/collaborate" class="btn btn-link btn-light text-uppercase font-weight-600">Brokers</a>
@@ -100,7 +100,13 @@
                     <a href="/lifestyle" class="btn btn-link btn-light text-uppercase font-weight-600">Lifestyle</a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="/contact" class="btn btn-light text-uppercase font-weight-600">Contacto</a>
+                    <a href="/contact" class="btn btn-light text-uppercase font-weight-600">{$lang.contact_us}</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="?lang=es" class="btn btn-link btn-light text-uppercase font-weight-600">ES</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="?lang=en" class="btn btn-link btn-light text-uppercase font-weight-600">EN</a>
                 </li>
             </ul>
             <div class="visible-phone visible-tablet">

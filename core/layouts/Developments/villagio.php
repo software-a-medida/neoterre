@@ -17,7 +17,7 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
         <section class="p-tb-50">
             <div class="container">
                 <div class="button-items">
-                    <a href="javascript:void(0);" class="btn btn-link p-l-0">Volver</a>
+                    <a href="javascript:void(0);" class="btn btn-link p-l-0">{$lang.back}</a>
                 </div>
                 <h1 class="text-uppercase m-t-30 font-weight-bold">Villagio</h1>
 
@@ -29,9 +29,9 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
                             </figure>
 
                             <div class="col-12 col-md-6">
-                                <h1 class="text-uppercase text-light m-b-40">Los condos más bonitos de aldea zamá</h1>
+                                <h1 class="text-uppercase text-light m-b-40">{$lang.dvl_116}</h1>
 
-                                <!-- <a href="javascript:void(0);" class="btn btn-light text-uppercase font-weight-bold">Descargar brochure</a> -->
+                                <!-- <a href="javascript:void(0);" class="btn btn-light text-uppercase font-weight-bold">{$lang.download_brochure}</a> -->
                             </div>
                         </div>
                     </div>
@@ -42,12 +42,12 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                        <h2 class="text-uppercase m-b-30">Experimenta un estilo de vida premium en Tulum</h2>
-                        <p class="">Un exclusivo desarrollo en Aldea Zamá ideal para aquellos que desean hacer de Tulum su segundo hogar, ofreciendo gran privacidad y seguridad.</p>
+                        <h2 class="text-uppercase m-b-30">{$lang.dvl_117}</h2>
+                        <p class="">{$lang.dvl_118}</p>
                     </div>
                     <div class="col-12 col-md-6">
-                        <h1 class="text-uppercase m-b-20 font-weight-bold">Contáctanos</h1>
-                        
+                        <h1 class="text-uppercase m-b-20 font-weight-bold">{$lang.contact_us}</h1>
+
                         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                         <script>
                             hbspt.forms.create({
@@ -61,7 +61,7 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
         </section>
         <section class="p-tb-50">
             <div class="container">
-                <h1 class="text-uppercase m-t-30 font-weight-bold">Galería</h1>
+                <h1 class="text-uppercase m-t-30 font-weight-bold">{$lang.gallery}</h1>
 
                 <div class="gallery-carousel">
                     <div class="owl-carousel">
@@ -97,11 +97,11 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
                         </figure>
                     </div>
                     <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
-                        <h1 class="text-uppercase m-b-30 font-weight-bold">Ubicación</h1>
+                        <h1 class="text-uppercase m-b-30 font-weight-bold">{$lang.location}</h1>
                         <div class="status-bars">
                             <div class="item m-b-20">
                                 <p class="align-items-center d-flex justify-content-between">
-                                    <strong>Playa</strong>
+                                    <strong>{$lang.beach}</strong>
                                     <small>10 min</small>
                                 </p>
                                 <div class="bar">
@@ -110,7 +110,7 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
                             </div>
                             <div class="item m-b-20">
                                 <p class="align-items-center d-flex justify-content-between">
-                                    <strong>Zona Arqueológica</strong>
+                                    <strong>{$lang.arq_zone}</strong>
                                     <small>10 min</small>
                                 </p>
                                 <div class="bar">
@@ -138,14 +138,14 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
                         </div>
                     </div>
                     <!-- <div class="col-12 col-md-4 m-t-30 offset-md-4 suffix-md-4">
-                        <a href="javascript:void(0);" class="btn btn-dark btn-block text-uppercase">Descargar brochure</a>
+                        <a href="javascript:void(0);" class="btn btn-dark btn-block text-uppercase">{$lang.download_brochure}</a>
                     </div> -->
                 </div>
             </div>
         </section>
         <section class="p-tb-50" style="background-color: #f5f5f5;">
             <div class="container">
-                <h1 class="text-uppercase m-b-30 font-weight-bold">Contáctanos</h1>
+                <h1 class="text-uppercase m-b-30 font-weight-bold">{$lang.contact_us}</h1>
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                 <script>
                     hbspt.forms.create({

@@ -20,7 +20,7 @@
         </section>
         <section class="p-tb-50" style="background-color: #f5f5f5;">
             <div class="container">
-                <h1 class="text-uppercase m-b-30 font-weight-bold">Contáctanos</h1>
+                <h1 class="text-uppercase m-b-30 font-weight-bold">{$lang.contact_us}</h1>
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                 <script>
                     hbspt.forms.create({

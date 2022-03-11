@@ -17,12 +17,12 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
         <section class="p-tb-50">
             <div class="container">
                 <div class="button-items">
-                    <a href="/developments/casas" class="btn btn-link p-l-0" style="opacity: 0.5;">Casas</a>
-                    <a href="/developments/lotes" class="btn btn-link p-l-0" style="opacity: 0.5;">Lotes</a>
-                    <a href="/developments/condos" class="btn btn-link p-l-0">Condos</a>
+                    <a href="/developments/casas" class="btn btn-link p-l-0" style="opacity: 0.5;">{$lang.houses}</a>
+                    <a href="/developments/lotes" class="btn btn-link p-l-0" style="opacity: 0.5;">{$lang.lots}</a>
+                    <a href="/developments/condos" class="btn btn-link p-l-0">{$lang.departments}</a>
                 </div>
-                <h1 class="text-uppercase m-t-30">Condos</h1>
-                <p class="text-muted m-b-50"><i>En la página del desarrollo recién esta la descarga del brochure.</i></p>
+                <h1 class="text-uppercase m-t-30">{$lang.departments}</h1>
+                <p class="text-muted m-b-50">{$lang.download_brochure_next_page}</p>
 
                 <!-- <article class="m-b-50">
                     <div class="row no-gutters">
@@ -40,12 +40,12 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                                 <div class="grid-gray m-b-20" style="grid-template-columns: repeat(2, 1fr);">
                                     <div class="p-0" style="background-color: transparent;">
                                         <h2>24</h2>
-                                        <h6>Casas</h6>
+                                        <h6>{$lang.houses}</h6>
                                         <p>A partir de <br> 3,800,000 MXN.</p>
                                     </div>
                                     <div class="p-0" style="background-color: transparent;">
                                         <h2>34</h2>
-                                        <h6>Lotes</h6>
+                                        <h6>{$lang.lots}</h6>
                                         <p>A partir de <br> 975,000 MXN.</p>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                             </div>
 
                             <div class="button-items text-center m-t-20">
-                                <a href="/development/sihil" class="btn btn-dark text-uppercase p-lr-50">Ver desarrollo</a>
+                                <a href="/development/sihil" class="btn btn-dark text-uppercase p-lr-50">{$lang.view_all}</a>
                             </div>
                         </div>
                     </div>
@@ -67,18 +67,18 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                                 <div class="grid-gray m-b-20" style="grid-template-columns: repeat(2, 1fr);">
                                     <div class="p-0" style="background-color: transparent;">
                                         <h2>29</h2>
-                                        <h6>Condos</h6>
-                                        <p>4 tipologías</p>
-                                        <p>Desde 72.02 m2.</p>
-                                        <p>a partir de 185.000 USD.</p>
+                                        <h6>{$lang.departments}</h6>
+                                        <p>{$lang.dvl_39}</p>
+                                        <p>{$lang.dvl_40}</p>
+                                        <p>{$lang.dvl_41}</p>
                                     </div>
                                 </div>
 
-                                <p class="text-muted">29 amplios y luminosos departamentos que optimizan  el uso de luz natural para otorgar gran confort a sus usuarios. Aruna es ideal para ofrecer una renta vacacional de lujo a la gran demanda internacional de turistas.  En régimen de condominio, listo para entregar y escriturar y apto para crédito hipotecario.</p>
+                                <p class="text-muted">{$lang.dvl_42}</p>
                             </div>
 
                             <div class="button-items text-center m-t-20">
-                                <a href="/development/aruna" class="btn btn-dark text-uppercase p-lr-50">Ver desarrollo</a>
+                                <a href="/development/aruna" class="btn btn-dark text-uppercase p-lr-50">{$lang.view_all}</a>
                             </div>
                         </div>
                         <div class="col-md-8 order-1 order-md-2 pos-relative noscroll">
@@ -88,7 +88,7 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                             <figure class="align-items-center d-flex elm-stretched flex-column justify-content-center m-0" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 1;">
                                 <img src="{$path.uploads}Grupo 136.png" alt="" style="max-width: 80%;">
                             </figure>
-                            <span style="position: absolute;bottom: 40px;right: -50px;z-index: 1;background-color: #000;padding: 10px 50px;color: #FFF;font-weight: bold;text-transform: uppercase;font-size: 1.3rem;transform: rotate(-45deg);">83% vendido.</span>
+                            <span style="position: absolute;bottom: 40px;right: -50px;z-index: 1;background-color: #000;padding: 10px 50px;color: #FFF;font-weight: bold;text-transform: uppercase;font-size: 1.3rem;transform: rotate(-45deg);">{$lang.dvl_43}</span>
                         </div>
                     </div>
                 </article>
@@ -102,28 +102,28 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                             <figure class="align-items-center d-flex elm-stretched flex-column justify-content-center m-0" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 1;">
                                 <img src="{$path.uploads}Grupo 132.png" alt="" style="max-width: 80%;">
                             </figure>
-                            <span style="position: absolute;bottom: 20px;right: -50px;z-index: 1;background-color: #b5b5b5;padding: 10px 50px;color: #FFF;font-weight: bold;text-transform: uppercase;font-size: 1.3rem;transform: rotate(-45deg);">Sold out.</span>
+                            <span style="position: absolute;bottom: 20px;right: -50px;z-index: 1;background-color: #b5b5b5;padding: 10px 50px;color: #FFF;font-weight: bold;text-transform: uppercase;font-size: 1.3rem;transform: rotate(-45deg);">{$lang.dvl_44}</span>
                         </div>
                         <div class="col-md-4 d-flex flex-column justify-content-between order-2 order-md-2" style="padding: 20px;background-color: #F1F1F1;">
                             <div>
                                 <!-- <div class="grid-gray m-b-20" style="grid-template-columns: repeat(2, 1fr);">
                                     <div class="p-0" style="background-color: transparent;">
                                         <h2>24</h2>
-                                        <h6>Casas</h6>
+                                        <h6>{$lang.houses}</h6>
                                         <p>A partir de <br> 3,800,000 MXN.</p>
                                     </div>
                                     <div class="p-0" style="background-color: transparent;">
                                         <h2>34</h2>
-                                        <h6>Lotes</h6>
+                                        <h6>{$lang.lots}</h6>
                                         <p>A partir de <br> 975,000 MXN.</p>
                                     </div>
                                 </div> -->
 
-                                <p class="text-muted">Un exclusivo desarrollo en Aldea Zamá ideal para aquellos que desean hacer de Tulum su segundo hogar, ofreciendo gran privacidad y seguridad.</p>
+                                <p class="text-muted">{$lang.dvl_45}</p>
                             </div>
 
                             <div class="button-items text-center m-t-20">
-                                <a href="/development/villagio" class="btn btn-dark text-uppercase p-lr-50">Ver desarrollo</a>
+                                <a href="/development/villagio" class="btn btn-dark text-uppercase p-lr-50">{$lang.view_all}</a>
                             </div>
                         </div>
                     </div>
@@ -136,21 +136,21 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                                 <!-- <div class="grid-gray m-b-20" style="grid-template-columns: repeat(2, 1fr);">
                                     <div class="p-0" style="background-color: transparent;">
                                         <h2>24</h2>
-                                        <h6>Casas</h6>
+                                        <h6>{$lang.houses}</h6>
                                         <p>A partir de <br> 3,800,000 MXN.</p>
                                     </div>
                                     <div class="p-0" style="background-color: transparent;">
                                         <h2>34</h2>
-                                        <h6>Lotes</h6>
+                                        <h6>{$lang.lots}</h6>
                                         <p>A partir de <br> 975,000 MXN.</p>
                                     </div>
                                 </div> -->
 
-                                <p class="text-muted">Un proyecto ideal para aquellos que buscan rentabilidad en su inversión, por su excelente ubicación en Tulum que le garantiza una alta ocupación durante todo el año, teniendo en cuenta la gran demanda de viajeros de todo el mundo.</p>
+                                <p class="text-muted">{$lang.dvl_46}</p>
                             </div>
 
                             <div class="button-items text-center m-t-20">
-                                <a href="/development/una-luna" class="btn btn-dark text-uppercase p-lr-50">Ver desarrollo</a>
+                                <a href="/development/una-luna" class="btn btn-dark text-uppercase p-lr-50">{$lang.view_all}</a>
                             </div>
                         </div>
                         <div class="col-md-8 order-1 order-md-2 pos-relative noscroll">
@@ -160,7 +160,7 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                             <figure class="align-items-center d-flex elm-stretched flex-column justify-content-center m-0" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 1;">
                                 <img src="{$path.uploads}Logo UNALUNA.png" alt="" style="max-width: 80%;">
                             </figure>
-                            <span style="position: absolute;bottom: 20px;right: -50px;z-index: 1;background-color: #b5b5b5;padding: 10px 50px;color: #FFF;font-weight: bold;text-transform: uppercase;font-size: 1.3rem;transform: rotate(-45deg);">Sold out.</span>
+                            <span style="position: absolute;bottom: 20px;right: -50px;z-index: 1;background-color: #b5b5b5;padding: 10px 50px;color: #FFF;font-weight: bold;text-transform: uppercase;font-size: 1.3rem;transform: rotate(-45deg);">{$lang.dvl_44}</span>
                         </div>
                     </div>
                 </article>
@@ -180,18 +180,18 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                                 <div class="grid-gray m-b-20" style="grid-template-columns: repeat(2, 1fr);">
                                     <div class="p-0" style="background-color: transparent;">
                                         <h2>18</h2>
-                                        <h6>Departamentos</h6>
-                                        <p>3 tipologías.</p>
-                                        <p>Desde 35.92 m2.</p>
-                                        <p>a partir de 94.500 USD.</p>
+                                        <h6>{$lang.departments}</h6>
+                                        <p>{$lang.dvl_47}</p>
+                                        <p>{$lang.dvl_48}</p>
+                                        <p>{$lang.dvl_49}</p>
                                     </div>
                                 </div>
 
-                                <p class="text-muted">Suksës es un exclusivo complejo residencial desarrollado en conjunto a Monific. Cuenta con 18 departamentos, distribuidos en 4 pisos y rooftop con alberca, en un total de 1,124 m2.</p>
+                                <p class="text-muted">{$lang.dvl_50}</p>
                             </div>
 
                             <div class="button-items text-center m-t-20">
-                                <a href="/development/sukses" class="btn btn-dark text-uppercase p-lr-50">Ver desarrollo</a>
+                                <a href="/development/sukses" class="btn btn-dark text-uppercase p-lr-50">{$lang.view_all}</a>
                             </div>
                         </div>
                     </div>

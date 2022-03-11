@@ -17,7 +17,7 @@ $this->dependencies->add(['js', '{$path.plugins}OwlCarousel2-2.3.4/dist/owl.caro
         <section class="p-tb-50">
             <div class="container">
                 <div class="button-items">
-                    <a href="javascript:void(0);" class="btn btn-link p-l-0">Volver</a>
+                    <a href="javascript:void(0);" class="btn btn-link p-l-0">{$lang.back}</a>
                 </div>
                 <h1 class="text-uppercase m-t-30 font-weight-bold">El Canto</h1>
 
@@ -29,9 +29,9 @@ $this->dependencies->add(['js', '{$path.plugins}OwlCarousel2-2.3.4/dist/owl.caro
                             </figure>
 
                             <div class="col-12 col-md-6">
-                                <h1 class="text-uppercase text-light m-b-40">El placer de vivir en medio de la jungla</h1>
+                                <h1 class="text-uppercase text-light m-b-40">{$lang.dvl_70}</h1>
 
-                                <!-- <a href="javascript:void(0);" class="btn btn-light text-uppercase font-weight-bold">Descargar brochure</a> -->
+                                <!-- <a href="javascript:void(0);" class="btn btn-light text-uppercase font-weight-bold">{$lang.download_brochure}</a> -->
                             </div>
                         </div>
                     </div>
@@ -42,11 +42,11 @@ $this->dependencies->add(['js', '{$path.plugins}OwlCarousel2-2.3.4/dist/owl.caro
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                        <h2 class="text-uppercase m-b-30">El canto que oculta la selva maya</h2>
-                        <p class="">36 lotes residenciales con áreas verdes abundantes en medio de la jungla. El proyecto cuenta con una excelente ubicación en la región 15, una de las zonas de mayor crecimiento en Tulum.</p>
+                        <h2 class="text-uppercase m-b-30">{$lang.dvl_71}</h2>
+                        <p class="">{$lang.dvl_72}</p>
                     </div>
                     <div class="col-12 col-md-6">
-                        <h1 class="text-uppercase m-b-20 font-weight-bold">Contáctanos</h1>
+                        <h1 class="text-uppercase m-b-20 font-weight-bold">{$lang.contact_us}</h1>
 
                         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                         <script>
@@ -68,11 +68,11 @@ $this->dependencies->add(['js', '{$path.plugins}OwlCarousel2-2.3.4/dist/owl.caro
                         </figure>
                     </div>
                     <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
-                        <h1 class="text-uppercase m-b-30 font-weight-bold">Ubicación</h1>
+                        <h1 class="text-uppercase m-b-30 font-weight-bold">{$lang.location}</h1>
                         <div class="status-bars">
                             <div class="item m-b-20">
                                 <p class="align-items-center d-flex justify-content-between">
-                                    <strong>Centro de Tulum</strong>
+                                    <strong>{$lang.tulum_center}</strong>
                                     <small>2 min</small>
                                 </p>
                                 <div class="bar">
@@ -81,7 +81,7 @@ $this->dependencies->add(['js', '{$path.plugins}OwlCarousel2-2.3.4/dist/owl.caro
                             </div>
                             <div class="item m-b-20">
                                 <p class="align-items-center d-flex justify-content-between">
-                                    <strong>Playa</strong>
+                                    <strong>{$lang.beach}</strong>
                                     <small>10 min</small>
                                 </p>
                                 <div class="bar">
@@ -90,7 +90,7 @@ $this->dependencies->add(['js', '{$path.plugins}OwlCarousel2-2.3.4/dist/owl.caro
                             </div>
                             <div class="item m-b-20">
                                 <p class="align-items-center d-flex justify-content-between">
-                                    <strong>Zona Arqueológica</strong>
+                                    <strong>{$lang.arq_zone}</strong>
                                     <small>10 min</small>
                                 </p>
                                 <div class="bar">
@@ -109,14 +109,14 @@ $this->dependencies->add(['js', '{$path.plugins}OwlCarousel2-2.3.4/dist/owl.caro
                         </div>
                     </div>
                     <!-- <div class="col-12 col-md-4 m-t-30 offset-md-4 suffix-md-4">
-                        <a href="javascript:void(0);" class="btn btn-dark btn-block text-uppercase">Descargar brochure</a>
+                        <a href="javascript:void(0);" class="btn btn-dark btn-block text-uppercase">{$lang.download_brochure}</a>
                     </div> -->
                 </div>
             </div>
         </section>
         <section class="p-tb-50" style="background-color: #f5f5f5;">
             <div class="container">
-                <h1 class="text-uppercase m-b-30 font-weight-bold">Contáctanos</h1>
+                <h1 class="text-uppercase m-b-30 font-weight-bold">{$lang.contact_us}</h1>
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                 <script>
                     hbspt.forms.create({

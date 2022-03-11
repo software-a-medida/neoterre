@@ -5,10 +5,10 @@
                     <div class="col-11 d-flex flex-column justify-content-center">
                         <ul class="list-inline m-0">
                             <li class="list-inline-item m-r-50">
-                                <a href="/developing" class="btn btn-link" style="font-weight: 400;">Desarrollo</a>
+                                <a href="/developing" class="btn btn-link" style="font-weight: 400;">{$lang.developments}</a>
                             </li>
                             <li class="list-inline-item m-r-50">
-                                <a href="/collaborate" class="btn btn-link" style="font-weight: 400;">Elígenos</a>
+                                <a href="/collaborate" class="btn btn-link" style="font-weight: 400;">{$lang.choose_us}</a>
                             </li>
                             <li class="list-inline-item m-r-50">
                                 <a href="javascript:void(0);" class="btn btn-link" style="font-weight: 400;">Brokers</a>
@@ -17,7 +17,7 @@
                                 <a href="/lifestyle" class="btn btn-link" style="font-weight: 400;">Lifestyle</a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="/contact" class="btn btn-link" style="font-weight: 400;">Contacto</a>
+                                <a href="/contact" class="btn btn-link" style="font-weight: 400;">{$lang.contact_us}</a>
                             </li>
                         </ul>
                     </div>

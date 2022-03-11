@@ -17,7 +17,7 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
         <section class="p-tb-50">
             <div class="container">
                 <div class="button-items">
-                    <a href="javascript:void(0);" class="btn btn-link p-l-0">Volver</a>
+                    <a href="javascript:void(0);" class="btn btn-link p-l-0">{$lang.back}</a>
                 </div>
                 <h1 class="text-uppercase m-t-30 font-weight-bold">Aruna</h1>
 
@@ -29,9 +29,9 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
                             </figure>
 
                             <div class="col-12 col-md-6">
-                                <h1 class="text-uppercase text-light m-b-40">Tu refugio rentable en el paraiso</h1>
+                                <h1 class="text-uppercase text-light m-b-40">{$lang.dvl_20}</h1>
 
-                                <a href="{$path.uploads}Aruna_Brochure_español.pdf" download="Aruna_Brochure.pdf" class="btn btn-light text-uppercase font-weight-bold">Descargar brochure</a>
+                                <a href="{$path.uploads}Aruna_Brochure_español.pdf" download="Aruna_Brochure.pdf" class="btn btn-light text-uppercase font-weight-bold">{$lang.download_brochure}</a>
                             </div>
                         </div>
                     </div>
@@ -45,19 +45,19 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
                         <figure class="thumb-md d-flex align-items-center flex-column justify-content-center m-0">
                             <img src="{$path.images}icon-casas.png" alt="" class="img-fluid">
                         </figure>
-                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;">29 <span class="d-flex flex-column justify-content-center m-l-10" style="font-size: 1.3rem;">Condos.</span></h5>
+                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;">{$lang.dvl_21}</h5>
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center">
                         <figure class="thumb-md d-flex align-items-center flex-column justify-content-center m-0">
                             <img src="{$path.images}icon-casas.png" alt="" class="img-fluid">
                         </figure>
-                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;">4 <span class="d-flex flex-column justify-content-center m-l-10" style="font-size: 1.3rem;">Tipologías.</span></h5>
+                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;">{$lang.dvl_22}</h5>
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center">
                         <figure class="thumb-md d-flex align-items-center flex-column justify-content-center m-0">
                             <img src="{$path.images}icon-plano.png" alt="" class="img-fluid">
                         </figure>
-                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;"><span class="d-flex flex-column justify-content-center m-l-10" style="font-size: 1.3rem;">Desde 185.000 USD <br>48-176 m2</span></h5>
+                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;"><span class="d-flex flex-column justify-content-center m-l-10" style="font-size: 1.3rem;">{$lang.dvl_23}</span></h5>
                     </div>
                 </div>
             </div>
@@ -66,12 +66,12 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                        <h2 class="text-uppercase m-b-30">Lo mejor del diseño contemporaneo en la zona de mayor crecimiento de Tulum</h2>
-                        <p class="">El proyecto goza de una amplia gama de amenidades y servicios, como vigilancia las 24 horas, WiFi en áreas comunes, bike parking, pabellón de yoga, cabina de masajes, zona de hamacas, piscina, terraza común, entre otras. En régimen de condominio, listo para entregar y escrituar y apto para crédito hipotecario.</p>
+                        <h2 class="text-uppercase m-b-30">{$lang.dvl_24}</h2>
+                        <p class="">{$lang.dvl_25}</p>
                     </div>
                     <div class="col-12 col-md-6">
-                        <h1 class="text-uppercase m-b-20 font-weight-bold">Contáctanos</h1>
-                        
+                        <h1 class="text-uppercase m-b-20 font-weight-bold">{$lang.contact_us}</h1>
+
                         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                         <script>
                             hbspt.forms.create({
@@ -85,7 +85,7 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
         </section>
         <section class="p-tb-50">
             <div class="container">
-                <h1 class="text-uppercase m-t-30 font-weight-bold">Galería</h1>
+                <h1 class="text-uppercase m-t-30 font-weight-bold">{$lang.gallery}</h1>
 
                 <div class="gallery-carousel">
                     <div class="owl-carousel">
@@ -130,11 +130,11 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
                         </figure>
                     </div>
                     <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
-                        <h1 class="text-uppercase m-b-30 font-weight-bold">Ubicación</h1>
+                        <h1 class="text-uppercase m-b-30 font-weight-bold">{$lang.location}</h1>
                         <div class="status-bars">
                             <div class="item m-b-20">
                                 <p class="align-items-center d-flex justify-content-between">
-                                    <strong>Playa</strong>
+                                    <strong>{$lang.beach}</strong>
                                     <small>10 min</small>
                                 </p>
                                 <div class="bar">
@@ -143,7 +143,7 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
                             </div>
                             <div class="item m-b-20">
                                 <p class="align-items-center d-flex justify-content-between">
-                                    <strong>Zona Arqueológica</strong>
+                                    <strong>{$lang.arq_zone}</strong>
                                     <small>10 min</small>
                                 </p>
                                 <div class="bar">
@@ -171,14 +171,14 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.0']);
                         </div>
                     </div>
                     <div class="col-12 col-md-4 m-t-30 offset-md-4 suffix-md-4">
-                        <a href="{$path.uploads}Aruna_Brochure_español.pdf" download="Aruna_Brochure.pdf" class="btn btn-dark btn-block text-uppercase">Descargar brochure</a>
+                        <a href="{$path.uploads}Aruna_Brochure_español.pdf" download="Aruna_Brochure.pdf" class="btn btn-dark btn-block text-uppercase">{$lang.download_brochure}</a>
                     </div>
                 </div>
             </div>
         </section>
         <section class="p-tb-50" style="background-color: #f5f5f5;">
             <div class="container">
-                <h1 class="text-uppercase m-b-30 font-weight-bold">Contáctanos</h1>
+                <h1 class="text-uppercase m-b-30 font-weight-bold">{$lang.contact_us}</h1>
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                 <script>
                     hbspt.forms.create({

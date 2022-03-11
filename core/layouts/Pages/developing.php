@@ -20,20 +20,20 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
             </figure>
 
             <div class="container">
-                <h1 class="text__h text-center m-0 text-light m-b-40">Neoterre: Developing <br>lifestyle, building dreams</h1>
-                <h4>Invierte existosamente en desarrollos de Tulum</h4>
+                <h1 class="text__h text-center m-0 text-light m-b-40">{$lang.dvl_01}</h1>
+                <h4>{$lang.dvl_02}</h4>
             </div>
         </section>
 
         <section class="p-tb-50">
             <div class="container">
-                <p class="text-muted text-center font-20">Con Neoterre puedes invertir tu patrimonio en un <strong>mercado estable.</strong> Conoce nuestro <strong>amplio portafolio de desarrollos</strong> que reflejan lo mejor del mercado inmobiliario en Tulum. Tenemos <strong>opciones rentables</strong> para presupuestos bajos, medianos o altos, según tu preferencia.</p>
+                <p class="text-muted text-center font-20">{$lang.dvl_03}</p>
             </div>
         </section>
 
         <section class="p-tb-50" style="background-color: #f5f5f5;">
             <div class="container">
-                <h1 class="text-uppercase m-b-30 font-weight-bold">Contáctanos</h1>
+                <h1 class="text-uppercase m-b-30 font-weight-bold">{$lang.contact_us}</h1>
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                 <script>
                     hbspt.forms.create({
@@ -61,50 +61,50 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <h3 class="text-uppercase m-b-30"><strong>¿Qué tipo de inversión <br>planeas hacer?</strong></h3>
+                        <h3 class="text-uppercase m-b-30">{$lang.dvl_04}</h3>
                         <div class="label group-labels">
                             <label class="checkbox m-b-10">
-                                <p class="m-0">1. De plusvalía</p>
+                                <p class="m-0">{$lang.dvl_05}</p>
                                 <input type="checkbox"/>
                                 <div class="checkbox_indicator"></div>
                             </label>
                             <label class="checkbox m-b-10">
-                                <p class="m-0">2. Renta vacacional</p>
+                                <p class="m-0">{$lang.dvl_06}</p>
                                 <input type="checkbox"/>
                                 <div class="checkbox_indicator"></div>
                             </label>
                             <label class="checkbox m-b-10">
-                                <p class="m-0">3. Segundo hogar</p>
+                                <p class="m-0">{$lang.dvl_07}</p>
                                 <input type="checkbox"/>
                                 <div class="checkbox_indicator"></div>
                             </label>
                             <label class="checkbox m-b-10">
-                                <p class="m-0">4. Otra ¿Cuál? (especificar)</p>
+                                <p class="m-0">{$lang.dvl_08}</p>
                                 <input type="checkbox"/>
                                 <div class="checkbox_indicator"></div>
                             </label>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <h3 class="text-uppercase m-b-30"><strong>¿Cuánto deseas <br>invertir?</strong></h3>
+                        <h3 class="text-uppercase m-b-30">{$lang.dvl_09}</h3>
                         <div class="label group-labels">
                             <label class="checkbox m-b-10">
-                                <p class="m-0">Entre 100,000 y 200,000 USD</p>
+                                <p class="m-0">{$lang.dvl_10}</p>
                                 <input type="checkbox"/>
                                 <div class="checkbox_indicator"></div>
                             </label>
                             <label class="checkbox m-b-10">
-                                <p class="m-0">Entre 200,000 y 300,000 USD</p>
+                                <p class="m-0">{$lang.dvl_11}</p>
                                 <input type="checkbox"/>
                                 <div class="checkbox_indicator"></div>
                             </label>
                             <label class="checkbox m-b-10">
-                                <p class="m-0">Entre 300,000 y 400,000 USD</p>
+                                <p class="m-0">{$lang.dvl_12}</p>
                                 <input type="checkbox"/>
                                 <div class="checkbox_indicator"></div>
                             </label>
                             <label class="checkbox m-b-10">
-                                <p class="m-0">Más de 500,000 USD</p>
+                                <p class="m-0">{$lang.dvl_13}</p>
                                 <input type="checkbox"/>
                                 <div class="checkbox_indicator"></div>
                             </label>
@@ -116,47 +116,54 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
 
         <section class="p-tb-50">
             <div class="container">
-                <h1 class="text-uppercase text-center m-b-30">¿Por qué elegirnos?</h1>
+                <h1 class="text-uppercase text-center m-b-30">{$lang.idx_11}</h1>
 
                 <div class="grid-gray">
                     <div>
                         <figure class="d-flex align-items-center flex-column justify-content-center m-b-10" style="width: 78px;height: 78px;">
                             <img src="{$path.images}icon-home.png" alt="" class="img-fluid">
                         </figure>
-                        <h6>Amplio <br>portafolio</h6>
-                        <p>De desarrollos de lujo.</p>
+                        <h6>{$lang.idx_12}</h6>
+                        <p>{$lang.idx_13}</p>
                     </div>
                     <div>
                         <figure class="d-flex align-items-center flex-column justify-content-center m-b-10" style="width: 78px;height: 78px;">
                             <img src="{$path.images}icon-stonk.png" alt="" class="img-fluid">
                         </figure>
-                        <h6>Mayor <br>rentabilidad</h6>
-                        <p>En inversiones de largo y corto plazo.</p>
+                        <h6>{$lang.idx_14}</h6>
+                        <p>{$lang.idx_15}</p>
                     </div>
                     <div>
                         <figure class="d-flex align-items-center flex-column justify-content-center m-b-10" style="width: 78px;height: 78px;">
                             <img src="{$path.images}icon-building.png" alt="" class="img-fluid">
                         </figure>
-                        <h6>Mejor <br>ubicación</h6>
-                        <p>Y calidad de vida asegurada.</p>
+                        <h6>{$lang.idx_16}</h6>
+                        <p>{$lang.idx_17}</p>
                     </div>
                     <div>
                         <figure class="d-flex align-items-center flex-column justify-content-center m-b-10" style="width: 78px;height: 78px;">
                             <img src="{$path.images}icon-sale.png" alt="" class="img-fluid">
                         </figure>
-                        <h6>Financiamiento flexible</h6>
-                        <p>y opciones.</p>
+                        <h6>{$lang.idx_18}</h6>
+                        <p>{$lang.idx_19}</p>
                     </div>
                     <div>
                         <figure class="d-flex align-items-center flex-column justify-content-center m-b-10" style="width: 78px;height: 78px;">
                             <img src="{$path.images}icon-write.png" alt="" class="img-fluid">
                         </figure>
-                        <h6>Extensivo estudio</h6>
-                        <p>de mercado.</p>
+                        <h6>{$lang.idx_20}</h6>
+                        <p>{$lang.idx_21}</p>
+                    </div>
+                    <div>
+                        <figure class="d-flex align-items-center flex-column justify-content-center m-b-10" style="width: 78px;height: 78px;">
+                            <img src="{$path.images}icon-money.png" alt="" class="img-fluid">
+                        </figure>
+                        <h6>{$lang.idx_22}</h6>
+                        <p>{$lang.idx_23}</p>
                     </div>
                 </div>
 
-                <p class="text-muted text-center font-20 m-t-30">Somos <strong>expertos en desarrollos inmobiliarios.</strong> Desde hace <strong>más de 15 años,</strong> trabajamos para garantizar proyectos con la <strong>mejor ubicación</strong> y la <strong>mayor rentabilidad de inversión</strong> a corto y largo plazo, siempre satisfaciendo los gustos y preferencias del mercado.</p>
+                <p class="text-muted text-center font-20 m-t-30">{$lang.dvl_14}</p>
             </div>
         </section>
 
@@ -164,7 +171,7 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-left d-flex flex-column align-items-start justify-content-center">
-                        <h2 class="display-4 text-uppercase text-light">Invertir en Tulum <br>es una decision sabia</h2>
+                        <h2 class="display-4 text-uppercase text-light">{$lang.idx_10}</h2>
                     </div>
                 </div>
             </div>
@@ -172,16 +179,16 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
 
         <section class="p-tb-50">
             <div class="container">
-                <h1 class="text-uppercase text-center m-b-30">¿Por qué Tulum?</h1>
+                <h1 class="text-uppercase text-center m-b-30">{$lang.dvl_15}</h1>
 
                 <div class="p-20 m-b-20" style="background-color: #f5f5f5;">
-                    <p class="text-muted text-center font-16 m-0"><strong>Tulum se convirtió en el principal destino turístico de México;</strong> un paraíso natural bajo continuo crecimiento, planeado con un foco de sustentabilidad para proteger sus playas, selvas, ruinas y tesoros naturales.</p>
+                    <p class="text-muted text-center font-16 m-0">{$lang.dvl_16}</p>
                 </div>
                 <div class="p-20 m-b-20" style="background-color: #f5f5f5;">
-                    <p class="text-muted text-center font-16 m-0">Su <strong>extensa oferta de actividades,</strong> gastronomía y vida nocturna captó la atención de <strong>viajeros de todo el mundo,</strong> lo cual demandará más espacios y desarrollos para habitar.</p>
+                    <p class="text-muted text-center font-16 m-0">{$lang.dvl_17}</p>
                 </div>
                 <div class="p-20" style="background-color: #f5f5f5;">
-                    <p class="text-muted text-center font-16 m-0"><strong>Nuevos proyectos de infraestructura</strong> como el aeropuerto local, tren Maya, autopistas y desarrollos inmobiliarios <strong>prometen seguir aumentando la plusvalía para inversores.</strong></p>
+                    <p class="text-muted text-center font-16 m-0">{$lang.dvl_18}</p>
                 </div>
             </div>
         </section>
@@ -193,8 +200,8 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                         <figure class="elm-stretched m-0">
                             <img src="{$path.uploads}Enmascarar grupo 20@2x.png" alt="" class="img-cover">
                         </figure>
-                        <h2 class="display-4 font-weight-bold text-uppercase m-b-30 text-light">Casas</h2>
-                        <a href="/developments/casas" class="btn btn-dark text-uppercase p-lr-50">Ver casas</a>
+                        <h2 class="display-4 font-weight-bold text-uppercase m-b-30 text-light">{$lang.houses}</h2>
+                        <a href="/developments/casas" class="btn btn-dark text-uppercase p-lr-50">{$lang.view_all}</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
@@ -202,8 +209,8 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                         <figure class="elm-stretched m-0">
                             <img src="{$path.uploads}Enmascarar grupo 21@2x.png" alt="" class="img-cover">
                         </figure>
-                        <h2 class="display-4 font-weight-bold text-uppercase m-b-30 text-light">Lotes</h2>
-                        <a href="/developments/lotes" class="btn btn-dark text-uppercase p-lr-50">Ver lotes</a>
+                        <h2 class="display-4 font-weight-bold text-uppercase m-b-30 text-light">{$lang,lots}</h2>
+                        <a href="/developments/lotes" class="btn btn-dark text-uppercase p-lr-50">{$lang.view_all}</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
@@ -211,8 +218,8 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                         <figure class="elm-stretched m-0">
                             <img src="{$path.uploads}Enmascarar grupo 19@2x.png" alt="" class="img-cover">
                         </figure>
-                        <h2 class="display-4 font-weight-bold text-uppercase m-b-30 text-light">Condos</h2>
-                        <a href="/developments/condos" class="btn btn-dark text-uppercase p-lr-50">Ver condos</a>
+                        <h2 class="display-4 font-weight-bold text-uppercase m-b-30 text-light">{$lang.departments}</h2>
+                        <a href="/developments/condos" class="btn btn-dark text-uppercase p-lr-50">{$lang.view_all}</a>
                     </div>
                 </div>
             </div>
@@ -220,7 +227,7 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
 
         <section class="p-tb-50">
             <div class="container">
-                <p class="text-muted text-center font-20">Contamos con productos para todos los gustos; Elige entre departamentos ideales para rentas vacacionales, casas para disfrutar Tulum al máximo, o lotes para contruir el proyecto de tus sueños.</p>
+                <p class="text-muted text-center font-20">{$lang.dvl_19}</p>
             </div>
         </section>
     </main>

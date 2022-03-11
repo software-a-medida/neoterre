@@ -17,9 +17,9 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.1']);
         <section class="p-tb-50">
             <div class="container">
                 <div class="button-items">
-                    <a href="javascript:void(0);" class="btn btn-link p-l-0">Volver</a>
+                    <a href="javascript:void(0);" class="btn btn-link p-l-0">{$lang.back}</a>
                 </div>
-                <h1 class="text-uppercase m-t-30 font-weight-bold">Neoterre Houses</h1>
+                <h1 class="text-uppercase m-t-30 font-weight-bold">Neoterre {$lang.houses}</h1>
 
                 <div class="row no-gutters">
                     <div class="col-12">
@@ -29,9 +29,9 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.1']);
                             </figure>
 
                             <div class="col-12 col-md-6">
-                                <h1 class="text-uppercase text-light m-b-40">Descubre casas con el ADN Tulum</h1>
+                                <h1 class="text-uppercase text-light m-b-40">{$lang.dvl_64}</h1>
 
-                                <a href="{$path.uploads}Neoterre_Brochure_español.pdf" download="Neoterre_Brochure.pdf" class="btn btn-light text-uppercase font-weight-bold">Descargar brochure</a>
+                                <a href="{$path.uploads}Neoterre_Brochure_español.pdf" download="Neoterre_Brochure.pdf" class="btn btn-light text-uppercase font-weight-bold">{$lang.download_brochure}</a>
                             </div>
                         </div>
                     </div>
@@ -45,19 +45,19 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.1']);
                         <figure class="thumb-md d-flex align-items-center flex-column justify-content-center m-0">
                             <img src="{$path.images}icon-casas.png" alt="" class="img-fluid">
                         </figure>
-                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;">3 <span class="d-flex flex-column justify-content-center m-l-10" style="font-size: 1.3rem;">Modelos <br>de casas.</span></h5>
+                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;">{$lang.dvl_65}</h5>
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center">
                         <figure class="thumb-md d-flex align-items-center flex-column justify-content-center m-0">
                             <img src="{$path.images}icon-casas.png" alt="" class="img-fluid">
                         </figure>
-                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;"><span class="d-flex flex-column justify-content-center m-l-10" style="font-size: 1.3rem;">Casas de 3 y 4 <br>recámaras.</span></h5>
+                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;"><span class="d-flex flex-column justify-content-center m-l-10" style="font-size: 1.3rem;">{$lang.dvl_66}</span></h5>
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center">
                         <figure class="thumb-md d-flex align-items-center flex-column justify-content-center m-0">
                             <img src="{$path.images}icon-plano.png" alt="" class="img-fluid">
                         </figure>
-                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;">34 <span class="d-flex flex-column justify-content-center m-l-10" style="font-size: 1.3rem;">Lotes desde <br>154.55m2</span></h5>
+                        <h5 class="d-flex m-0 m-l-10" style="font-size: 2.5rem;">{$lang.dvl_67}</h5>
                     </div>
                 </div>
             </div>
@@ -66,12 +66,12 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.1']);
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                        <h2 class="text-uppercase m-b-30">Nos ocupamos del diseño por tí</h2>
-                        <p class="">Los modelos A, B y C cuentan con sala, comedor, cocina, 3 baños y cuarto de lavado. Todos cuentan con la opción de tener 3 o 4 recámaras y la posibilidad de añadir una terraza y patio.</p>
+                        <h2 class="text-uppercase m-b-30">{$lang.dvl_68}</h2>
+                        <p class="">{$lang.dvl_69}</p>
                     </div>
                     <div class="col-12 col-md-6">
-                        <h1 class="text-uppercase m-b-20 font-weight-bold">Contáctanos</h1>
-                        
+                        <h1 class="text-uppercase m-b-20 font-weight-bold">{$lang.contact_us}</h1>
+
                         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                         <script>
                             hbspt.forms.create({
@@ -85,7 +85,7 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.1']);
         </section>
         <section class="p-tb-50">
             <div class="container">
-                <h1 class="text-uppercase m-t-30 font-weight-bold">Galería</h1>
+                <h1 class="text-uppercase m-t-30 font-weight-bold">{$lang.gallery}</h1>
 
                 <div class="gallery-carousel">
                     <div class="owl-carousel">
@@ -116,7 +116,7 @@ $this->dependencies->add(['js', '{$path.js}pages/development_view.js?v=1.0.1']);
         </section>
         <section class="p-tb-50" style="background-color: #f5f5f5;">
             <div class="container">
-                <h1 class="text-uppercase m-b-30 font-weight-bold">Contáctanos</h1>
+                <h1 class="text-uppercase m-b-30 font-weight-bold">{$lang.contact_us}</h1>
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                 <script>
                     hbspt.forms.create({

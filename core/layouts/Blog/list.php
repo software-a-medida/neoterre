@@ -28,18 +28,18 @@
 
         <section class="suscribe" style="background-image: url('{$path.uploads}Enmascarar grupo 36@2x.png')">
             <div class="container">
-                <h1>Suscríbete</h1>
-                <h6>Y mantente al tanto de las últimas oportunidades <br>de inversion en Tulum.</h6>
+                <h1>{$lang.suscribe}</h1>
+                <h6>{$lang.idx_25}</h6>
                 <form>
                     <input type="text" placeholder="Email" />
-                    <button class="btn btn-dark text-uppercase font-weight-bold">Enviar</button>
+                    <button class="btn btn-dark text-uppercase font-weight-bold">{$lang.send}</button>
                 </form>
             </div>
         </section>
 
         <section class="p-tb-50" style="background-color: #f5f5f5;">
             <div class="container">
-                <h1 class="text-uppercase m-b-30 font-weight-bold">Contáctanos</h1>
+                <h1 class="text-uppercase m-b-30 font-weight-bold">{$lang.contact_us}</h1>
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                 <script>
                     hbspt.forms.create({
