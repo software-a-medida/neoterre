@@ -211,19 +211,28 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.1']);
             </div>
 
             <div class="row no-gutters">
-                <?php foreach ( $blog as $key => $value ): ?>
-                    <div class="col-12 col-md-4">
-                        <a href="/lifestyle/<?= $value['url'] ?>">
-                            <div class="card" style="border: none;">
-                                <img class="card-img-top img-fluid" src="{$path.uploads}<?= $value['image'] ?>" alt="">
-                                <div class="card-body">
-                                    <p class="card-text"><strong class="text-uppercase"><?= $value['title'] ?></strong></p>
-                                    <p class="card-text text-muted">@neoterremx</p>
+                <?php $neo_blog_count = 0; ?>
+                <?php foreach ( $blog as $key => $value ) : ?>
+                    <?php $neo_blog_count = $neo_blog_count + 1; ?>
+                    <?php if ($neo_blog_count <= 8) : ?>
+                        <div class="col-12 col-md-3">
+                            <a href="/lifestyle/<?= $value['url'] ?>">
+                                <div class="card" style="border: none;">
+                                    <figure class="neo-blog">
+                                        <img class="card-img-top img-fluid" src="{$path.uploads}<?= $value['image'] ?>" alt="">
+                                    </figure>
+                                    <div class="card-body">
+                                        <p class="card-text"><strong class="text-uppercase"><?= $value['title'] ?></strong></p>
+                                        <p class="card-text text-muted">@neoterremx</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
+                    <?php endif; ?>
                 <?php endforeach; ?>
+            </div>
+            <div class="text-center d-flex flex-column align-items-center justify-content-center p-tb-50">
+                <a href="/lifestyle" class="btn btn-light text-uppercase p-lr-50"><span class="font-weight-bold">{$lang.view_all}</span></a>
             </div>
         </section>
 

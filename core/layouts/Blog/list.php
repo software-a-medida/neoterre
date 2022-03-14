@@ -10,10 +10,12 @@
 
                 <div class="row">
                     <?php foreach ( $data as $key => $value ): ?>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-3">
                             <a href="/lifestyle/<?= $value['url'] ?>">
                                 <div class="card" style="border: none;">
-                                    <img class="card-img-top img-fluid" src="{$path.uploads}<?= $value['image'] ?>" alt="">
+                                    <figure class="neo-blog">
+                                        <img class="card-img-top img-fluid" src="{$path.uploads}<?= $value['image'] ?>" alt="">
+                                    </figure>
                                     <div class="card-body">
                                         <p class="card-text"><strong class="text-uppercase"><?= $value['title'] ?></strong></p>
                                         <p class="card-text text-muted">@neoterremx</p>
