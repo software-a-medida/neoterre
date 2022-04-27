@@ -167,13 +167,14 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
 
                 <article class="m-b-50">
                     <div class="row no-gutters">
-                        <div class="col-md-8 order-1 order-md-1">
+                        <div class="col-md-8 order-1 order-md-1 pos-relative noscroll">
                             <figure class="elm-stretched m-0">
                                 <img src="{$path.uploads}d2560f1294988aec883febef0d1e7bb3.png" alt="" class="img-cover">
                             </figure>
                             <figure class="align-items-center d-flex elm-stretched flex-column justify-content-center m-0" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 1;">
                                 <img src="{$path.uploads}Grupo 213.png" alt="" style="max-width: 80%;">
                             </figure>
+                            <span style="position: absolute;bottom: 20px;right: -50px;z-index: 1;background-color: #b5b5b5;padding: 10px 50px;color: #FFF;font-weight: bold;text-transform: uppercase;font-size: 1.3rem;transform: rotate(-45deg);">{$lang.dvl_44}</span>
                         </div>
                         <div class="col-md-4 d-flex flex-column justify-content-between order-2 order-md-2" style="padding: 20px;background-color: #F1F1F1;">
                             <div>

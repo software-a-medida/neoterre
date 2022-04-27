@@ -19,7 +19,7 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                 <div class="button-items">
                     <a href="/developments/casas" class="btn btn-link p-l-0" style="opacity: 0.5;">{$lang.houses}</a>
                     <a href="/developments/lotes" class="btn btn-link p-l-0">{$lang.lots}</a>
-                    <a href="/developments/condos" class="btn btn-link p-l-0" style="opacity: 0.5;">{$lang-departments}</a>
+                    <a href="/developments/condos" class="btn btn-link p-l-0" style="opacity: 0.5;">{$lang.departments}</a>
                 </div>
                 <h1 class="text-uppercase m-t-30">{$lang.lots}</h1>
                 <p class="text-muted m-b-50">{$lang.download_brochure_next_page}</p>
@@ -33,7 +33,7 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.0']);
                             <figure class="align-items-center d-flex elm-stretched flex-column justify-content-center m-0" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 1;">
                                 <img src="{$path.uploads}Holistika hand.png" alt="" style="max-width: 80%;">
                             </figure>
-                            <span style="position: absolute;bottom: 40px;right: -50px;z-index: 1;background-color: #000;padding: 10px 50px;color: #FFF;font-weight: bold;text-transform: uppercase;font-size: 1.3rem;transform: rotate(-45deg);">{$lang.dvl_51}</span>
+                            <span style="position: absolute;bottom: 20px;right: -50px;z-index: 1;background-color: #b5b5b5;padding: 10px 50px;color: #FFF;font-weight: bold;text-transform: uppercase;font-size: 1.3rem;transform: rotate(-45deg);">{$lang.dvl_44}</span>
                         </div>
                         <div class="col-md-4 d-flex flex-column justify-content-between order-2 order-md-2" style="padding: 20px;background-color: #F1F1F1;">
                             <div>

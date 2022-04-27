@@ -7,7 +7,7 @@ $this->dependencies->add(['css', '{$path.plugins}OwlCarousel2-2.3.4/dist/assets/
 $this->dependencies->add(['js', '{$path.plugins}OwlCarousel2-2.3.4/dist/owl.carousel.min.js']);
 
 // Page
-$this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.1']);
+$this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.2']);
 ?>
 
 <div id="page">
@@ -44,8 +44,8 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.1']);
             <div class="owl-carousel">
                 <div class="item" style="background-image: url('{$path.uploads}Enmascarar grupo 34@2x.png');">
                     <div class="container" style="background-color: rgb(0 0 0 / 40%);padding: 30px;">
-                        <h4 class="title">{$lang.idx_01}</h4>
-                        <h6 class="text"><span class="text-uppercase d-block">{$lang.idx_02}</span> {$lang.idx_03}</h6>
+                        <h4 class="title">{$lang.idx_ss_01}</h4>
+                        <h6 class="text"><span class="text-uppercase d-block">{$lang.idx_ss_02}</span> {$lang.idx_ss_03}</h6>
                         <figure class="logo-superpos m-0" style="position: absolute;bottom: 70px;right: 100px;width: 300px;">
                             <img src="{$path.uploads}arunazonatulum.png" alt="">
                         </figure>
@@ -53,20 +53,20 @@ $this->dependencies->add(['js', '{$path.js}pages/index.js?v=1.0.1']);
                 </div>
                 <div class="item" style="background-image: url('{$path.uploads}Selva Maya at harmony.jpg');">
                     <div class="container" style="background-color: rgb(0 0 0 / 40%);padding: 30px;">
-                        <h4 class="title">{$lang.idx_01}</h4>
-                        <h6 class="text"><span class="text-uppercase d-block">{$lang.idx_02}</span> {$lang.idx_03}</h6>
+                        <h4 class="title">{$lang.idx_ss_04}</h4>
+                        <h6 class="text"><span class="text-uppercase d-block">{$lang.idx_ss_05}</span> {$lang.idx_ss_06}</h6>
                     </div>
                 </div>
                 <div class="item" style="background-image: url('{$path.uploads}Surenna.jpg');">
                     <div class="container" style="background-color: rgb(0 0 0 / 40%);padding: 30px;">
-                        <h4 class="title">{$lang.idx_01}</h4>
-                        <h6 class="text"><span class="text-uppercase d-block">{$lang.idx_02}</span> {$lang.idx_03}</h6>
+                        <h4 class="title">{$lang.idx_ss_07}</h4>
+                        <h6 class="text"><span class="text-uppercase d-block">{$lang.idx_ss_08}</span> {$lang.idx_ss_09}</h6>
                     </div>
                 </div>
                 <div class="item" style="background-image: url('{$path.uploads}Tulum-895.jpg');">
                     <div class="container" style="background-color: rgb(0 0 0 / 40%);padding: 30px;">
-                        <h4 class="title">{$lang.idx_01}</h4>
-                        <h6 class="text"><span class="text-uppercase d-block">{$lang.idx_02}</span> {$lang.idx_03}</h6>
+                        <h4 class="title">{$lang.idx_ss_10}</h4>
+                        <h6 class="text"><span class="text-uppercase d-block">{$lang.idx_ss_11}</span> {$lang.idx_ss_12}</h6>
                     </div>
                 </div>
             </div>

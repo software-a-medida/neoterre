@@ -21,7 +21,7 @@
 
 		<link rel="stylesheet" href="{$path.css}valkyrie.css?v=1.0" type="text/css" media="all" />
 		<link rel="stylesheet" href="{$path.css}icons.css?v=1.0" type="text/css" media="all" />
-		<link rel="stylesheet" href="{$path.css}styles.css?v=1.5" type="text/css" media="all" />
+		<link rel="stylesheet" href="{$path.css}styles.css?v=1.6" type="text/css" media="all" />
 		{$dependencies.css}
 	</head>
 	<body>
